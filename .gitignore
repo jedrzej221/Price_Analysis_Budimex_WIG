@@ -1,0 +1,14 @@
+# Ignore generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Ignore sensitive information (add more if needed)
+config.py
+
+# Ignore temporary files
+.DS_Store
+.vscode/
+.idea/
