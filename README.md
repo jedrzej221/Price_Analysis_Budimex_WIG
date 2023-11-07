@@ -4,11 +4,8 @@ This Python script performs a complex price analysis for the Budimex stock from 
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.8
 - Required libraries: yfinance, matplotlib, numpy
-
-Install the required libraries using pip:
-
 
 ## Usage
 
