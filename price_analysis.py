@@ -28,7 +28,7 @@ annualized_volatility = budimex_data['Daily_Return'].std() * np.sqrt(252)
 annualized_mean_return = budimex_data['Daily_Return'].mean() * 252
 
 # Calculate the Sharpe ratio
-risk_free_rate = 0.03  # You can adjust this rate according to the risk-free rate in your analysis
+risk_free_rate = 0.03
 sharpe_ratio = (annualized_mean_return - risk_free_rate) / annualized_volatility
 
 # Visualize the stock price and rolling statistics
